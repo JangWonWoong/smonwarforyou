@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90A4180A1A8BA72E00C64C26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A418091A8BA72E00C64C26 /* main.m */; };
+		90A4180D1A8BA72E00C64C26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4180C1A8BA72E00C64C26 /* AppDelegate.m */; };
+		90A418101A8BA72E00C64C26 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4180F1A8BA72E00C64C26 /* MasterViewController.m */; };
+		90A418131A8BA72E00C64C26 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A418121A8BA72E00C64C26 /* DetailViewController.m */; };
+		90A418161A8BA72E00C64C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A418141A8BA72E00C64C26 /* Main.storyboard */; };
+		90A418181A8BA72E00C64C26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A418171A8BA72E00C64C26 /* Images.xcassets */; };
+		90A4181B1A8BA72E00C64C26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90A418191A8BA72E00C64C26 /* LaunchScreen.xib */; };
+		90A418271A8BA72E00C64C26 /* SmonwarforyouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A418261A8BA72E00C64C26 /* SmonwarforyouTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90A418211A8BA72E00C64C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90A417FC1A8BA72E00C64C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A418031A8BA72E00C64C26;
+			remoteInfo = Smonwarforyou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90A418041A8BA72E00C64C26 /* Smonwarforyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smonwarforyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A418081A8BA72E00C64C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A418091A8BA72E00C64C26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90A4180B1A8BA72E00C64C26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90A4180C1A8BA72E00C64C26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90A4180E1A8BA72E00C64C26 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		90A4180F1A8BA72E00C64C26 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		90A418111A8BA72E00C64C26 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		90A418121A8BA72E00C64C26 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		90A418151A8BA72E00C64C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90A418171A8BA72E00C64C26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90A4181A1A8BA72E00C64C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		90A418201A8BA72E00C64C26 /* SmonwarforyouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmonwarforyouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A418251A8BA72E00C64C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A418261A8BA72E00C64C26 /* SmonwarforyouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmonwarforyouTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90A418011A8BA72E00C64C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A4181D1A8BA72E00C64C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90A417FB1A8BA72E00C64C26 = {
+			isa = PBXGroup;
+			children = (
+				90A418061A8BA72E00C64C26 /* Smonwarforyou */,
+				90A418231A8BA72E00C64C26 /* SmonwarforyouTests */,
+				90A418051A8BA72E00C64C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90A418051A8BA72E00C64C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A418041A8BA72E00C64C26 /* Smonwarforyou.app */,
+				90A418201A8BA72E00C64C26 /* SmonwarforyouTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A418061A8BA72E00C64C26 /* Smonwarforyou */ = {
+			isa = PBXGroup;
+			children = (
+				90A4180B1A8BA72E00C64C26 /* AppDelegate.h */,
+				90A4180C1A8BA72E00C64C26 /* AppDelegate.m */,
+				90A4180E1A8BA72E00C64C26 /* MasterViewController.h */,
+				90A4180F1A8BA72E00C64C26 /* MasterViewController.m */,
+				90A418111A8BA72E00C64C26 /* DetailViewController.h */,
+				90A418121A8BA72E00C64C26 /* DetailViewController.m */,
+				90A418141A8BA72E00C64C26 /* Main.storyboard */,
+				90A418171A8BA72E00C64C26 /* Images.xcassets */,
+				90A418191A8BA72E00C64C26 /* LaunchScreen.xib */,
+				90A418071A8BA72E00C64C26 /* Supporting Files */,
+			);
+			path = Smonwarforyou;
+			sourceTree = "<group>";
+		};
+		90A418071A8BA72E00C64C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90A418081A8BA72E00C64C26 /* Info.plist */,
+				90A418091A8BA72E00C64C26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90A418231A8BA72E00C64C26 /* SmonwarforyouTests */ = {
+			isa = PBXGroup;
+			children = (
+				90A418261A8BA72E00C64C26 /* SmonwarforyouTests.m */,
+				90A418241A8BA72E00C64C26 /* Supporting Files */,
+			);
+			path = SmonwarforyouTests;
+			sourceTree = "<group>";
+		};
+		90A418241A8BA72E00C64C26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90A418251A8BA72E00C64C26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90A418031A8BA72E00C64C26 /* Smonwarforyou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A4182A1A8BA72E00C64C26 /* Build configuration list for PBXNativeTarget "Smonwarforyou" */;
+			buildPhases = (
+				90A418001A8BA72E00C64C26 /* Sources */,
+				90A418011A8BA72E00C64C26 /* Frameworks */,
+				90A418021A8BA72E00C64C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smonwarforyou;
+			productName = Smonwarforyou;
+			productReference = 90A418041A8BA72E00C64C26 /* Smonwarforyou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90A4181F1A8BA72E00C64C26 /* SmonwarforyouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90A4182D1A8BA72E00C64C26 /* Build configuration list for PBXNativeTarget "SmonwarforyouTests" */;
+			buildPhases = (
+				90A4181C1A8BA72E00C64C26 /* Sources */,
+				90A4181D1A8BA72E00C64C26 /* Frameworks */,
+				90A4181E1A8BA72E00C64C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90A418221A8BA72E00C64C26 /* PBXTargetDependency */,
+			);
+			name = SmonwarforyouTests;
+			productName = SmonwarforyouTests;
+			productReference = 90A418201A8BA72E00C64C26 /* SmonwarforyouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90A417FC1A8BA72E00C64C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jow;
+				TargetAttributes = {
+					90A418031A8BA72E00C64C26 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					90A4181F1A8BA72E00C64C26 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 90A418031A8BA72E00C64C26;
+					};
+				};
+			};
+			buildConfigurationList = 90A417FF1A8BA72E00C64C26 /* Build configuration list for PBXProject "Smonwarforyou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90A417FB1A8BA72E00C64C26;
+			productRefGroup = 90A418051A8BA72E00C64C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90A418031A8BA72E00C64C26 /* Smonwarforyou */,
+				90A4181F1A8BA72E00C64C26 /* SmonwarforyouTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90A418021A8BA72E00C64C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A418161A8BA72E00C64C26 /* Main.storyboard in Resources */,
+				90A4181B1A8BA72E00C64C26 /* LaunchScreen.xib in Resources */,
+				90A418181A8BA72E00C64C26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A4181E1A8BA72E00C64C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90A418001A8BA72E00C64C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A4180D1A8BA72E00C64C26 /* AppDelegate.m in Sources */,
+				90A418101A8BA72E00C64C26 /* MasterViewController.m in Sources */,
+				90A4180A1A8BA72E00C64C26 /* main.m in Sources */,
+				90A418131A8BA72E00C64C26 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A4181C1A8BA72E00C64C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A418271A8BA72E00C64C26 /* SmonwarforyouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90A418221A8BA72E00C64C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A418031A8BA72E00C64C26 /* Smonwarforyou */;
+			targetProxy = 90A418211A8BA72E00C64C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90A418141A8BA72E00C64C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A418151A8BA72E00C64C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90A418191A8BA72E00C64C26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90A4181A1A8BA72E00C64C26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90A418281A8BA72E00C64C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90A418291A8BA72E00C64C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90A4182B1A8BA72E00C64C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smonwarforyou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90A4182C1A8BA72E00C64C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smonwarforyou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90A4182E1A8BA72E00C64C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmonwarforyouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smonwarforyou.app/Smonwarforyou";
+			};
+			name = Debug;
+		};
+		90A4182F1A8BA72E00C64C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmonwarforyouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smonwarforyou.app/Smonwarforyou";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90A417FF1A8BA72E00C64C26 /* Build configuration list for PBXProject "Smonwarforyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A418281A8BA72E00C64C26 /* Debug */,
+				90A418291A8BA72E00C64C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90A4182A1A8BA72E00C64C26 /* Build configuration list for PBXNativeTarget "Smonwarforyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A4182B1A8BA72E00C64C26 /* Debug */,
+				90A4182C1A8BA72E00C64C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90A4182D1A8BA72E00C64C26 /* Build configuration list for PBXNativeTarget "SmonwarforyouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A4182E1A8BA72E00C64C26 /* Debug */,
+				90A4182F1A8BA72E00C64C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90A417FC1A8BA72E00C64C26 /* Project object */;
+}
